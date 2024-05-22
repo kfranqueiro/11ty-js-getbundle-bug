@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      {% getBundle "css" %}
+    </style>
+    <link rel="stylesheet" href="{% getBundleFileUrl "css", "defer" %}">
+  </head>
+  <body>
+    {{ content }}
+  </body>
+</html>

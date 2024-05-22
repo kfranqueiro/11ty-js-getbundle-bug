@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "start": "npm run build -- --serve"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0-alpha.10"
+  }
+}
